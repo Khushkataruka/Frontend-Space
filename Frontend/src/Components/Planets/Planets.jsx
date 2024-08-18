@@ -123,7 +123,7 @@ const Planets = () => {
             const id = parseInt(event.currentTarget.dataset.id);
             const selectedPlanet = planets.find(planet => planet.id === id);
             setPlanetDetails(selectedPlanet);
-            const imageUrl = `src/Components/Planets/Images/planet-${id}.jpg`;
+            const imageUrl = `Planet-images/planet-${id}.jpg`;
             sun.style.backgroundImage = `url("${imageUrl}")`;
             sun.style.boxShadow = selectedPlanet.box_shadow;
 

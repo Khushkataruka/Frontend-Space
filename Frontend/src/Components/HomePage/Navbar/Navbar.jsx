@@ -65,7 +65,7 @@ const Navbar = () => {
                         <li onClick={() => { window.location.reload() }}><HomeRounded /><Link to="/">Home</Link></li>
                         <li onClick={() => { window.location.reload() }}><PersonRounded /><Link to="/about">About Us</Link></li>
                         <li onClick={() => { window.location.reload() }}><LocalPhoneRounded /><Link to="/contact">Contact Us</Link></li>
-                        {/* <li onClick={() => { window.location.reload() }}><Article /><Link to="/news">News</Link></li> */}
+                        <li onClick={() => { window.location.reload() }}><Article /><Link to="/news">News</Link></li>
                         <li className="dropdown" onClick={toggleDropdown}>
                             <span className="more-text"> <MoreHorizIcon /> More </span>
                             {dropdownOpen && (
@@ -102,8 +102,8 @@ const Navbar = () => {
                             <hr className='underline' /></li>
                         <li onClick={() => { window.location.reload() }}><Link to="/about">About Us</Link>
                             <hr className='underline' /></li>
-                        {/* <li onClick={() => { window.location.reload() }}><Link to="/news">News</Link>
-                            <hr className='underline' /></li> */}
+                        <li onClick={() => { window.location.reload() }}><Link to="/news">News</Link>
+                            <hr className='underline' /></li>
                         <li onClick={() => { window.location.reload() }}><Link to="/contact">Contact us</Link>
                             <hr className='underline' /></li>
                         <li className="dropdown">

@@ -19,7 +19,7 @@ body {
     flex-direction: column;
     width: 100%;
     min-height: 100vh;
-    background-image: url("https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-image: url("pexels-photo-998641.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -61,40 +61,40 @@ body {
 .sun {
     width: 22rem;
     height: 22rem;
-    background-image: url("Images/planet-3.jpg");
+    background-image: url("Planet-images/planet-3.jpg");
     box-shadow: inset -2em -2em 2em rgb(9, 9, 9), -0.5em -0.5em 1em #0a0856;
 }
 
 
 
 .mercury {
-    background-image: url("Images/planet-1.jpg");
+    background-image: url("Planet-images/planet-1.jpg");
     box-shadow: inset -2em -2em 2em rgb(9, 9, 9), -0.5em -0.5em 1em rgba(133, 133, 133, 1);
 }
 
 .venus {
-    background-image: url("Images/planet-2.jpg");
+    background-image: url("Planet-images/planet-2.jpg");
     box-shadow: inset -2em -2em 2em rgb(9, 9, 9), -0.5em -0.5em 1em #f5ca67;
 }
 
 .earth {
-    background-image: url("Images/planet-3.jpg");
+    background-image: url("Planet-images/planet-3.jpg");
     box-shadow: inset -2em -2em 2em rgb(9, 9, 9), -0.5em -0.5em 1em rgb(11, 11, 126);
 }
 
 .mars {
-    background-image: url("Images/planet-4.jpg");
+    background-image: url("Planet-images/planet-4.jpg");
     box-shadow: inset -2em -2em 2em rgb(9, 9, 9), -0.5em -0.5em 1em #99503b;
 }
 
 .jupiter {
-    background-image: url("Images/planet-5.jpg");
+    background-image: url("Planet-images/planet-5.jpg");
     box-shadow: inset -2em -2em 2em rgb(9, 9, 9), -0.5em -0.5em 1em #c1cdd2;
 }
 
 .saturn {
     z-index: 1;
-    background-image: url("Images/planet-6.jpg");
+    background-image: url("Planet-images/planet-6.jpg");
     box-shadow: inset -2em -2em 2em rgb(9, 9, 9), -0.2em -0.2em 1em #f7ddb6;
 }
 
@@ -142,12 +142,12 @@ body {
 }
 
 .uranus {
-    background-image: url("Images/planet-7.jpg");
+    background-image: url("Planet-images/planet-7.jpg");
     box-shadow: inset -2em -2em 2em rgb(9, 9, 9), -0.5em -0.5em 1em #50909a;
 }
 
 .neptune {
-    background-image: url("Images/planet-8.jpg");
+    background-image: url("Planet-images/planet-8.jpg");
     box-shadow: inset -2em -2em 2em rgb(9, 9, 9), -0.5em -0.5em 1em #355fb1;
 }
 

@@ -145,16 +145,16 @@ const biggestStars = [
 ];
 
 const starBackgrounds = {
-    1: "url('https://www.transparenttextures.com/patterns/dark-denim.png'), linear-gradient(to bottom, #1a1a1a, #400000, #b22222)",
-    2: "url('https://www.transparenttextures.com/patterns/diamond.png'), linear-gradient(to bottom, #0a0a0a, #3f0c0c, #a83f3f)",
-    3: "url('https://www.transparenttextures.com/patterns/abstract.png'), linear-gradient(to bottom, #1a1a1a, #4c1d1d, #b56c6c)",
-    4: "url('https://www.transparenttextures.com/patterns/old-map.png'), linear-gradient(to bottom, #2a2a2a, #6c1616, #d84d4d)",
-    5: "url('https://www.transparenttextures.com/patterns/mosaic.png'), linear-gradient(to bottom, #1a1a1a, #6f1d1d, #b95e5e)",
-    6: "url('https://www.transparenttextures.com/patterns/snow.png'), linear-gradient(to bottom, #0a0a0a, #1f1f1f, #404040)",
-    7: "url('https://www.transparenttextures.com/patterns/coffee.png'), linear-gradient(to bottom, #2e2e2e, #4e4e4e, #6c6c6c)",
-    8: "url('https://www.transparenttextures.com/patterns/wood.png'), linear-gradient(to bottom, #1e1e1e, #3b3b3b, #585858)",
-    9: "url('https://www.transparenttextures.com/patterns/paper.png'), linear-gradient(to bottom, #2c2c2c, #4a4a4a, #6d6d6d)",
-    10: "url('https://www.transparenttextures.com/patterns/tile.png'), linear-gradient(to bottom, #1d1d1d, #3a3a3a, #595959)"
+    1: "url('dark-denim.png'), linear-gradient(to bottom, #1a1a1a, #400000, #b22222)",
+    2: "url('dark-denim.png'), linear-gradient(to bottom, #0a0a0a, #3f0c0c, #a83f3f)",
+    3: "url('old-map.png'), linear-gradient(to bottom, #1a1a1a, #4c1d1d, #b56c6c)",
+    4: "url('old-map.png'), linear-gradient(to bottom, #2a2a2a, #6c1616, #d84d4d)",
+    5: "url('dark-denim.png'), linear-gradient(to bottom, #1a1a1a, #6f1d1d, #b95e5e)",
+    6: "url('snow.png'), linear-gradient(to bottom, #0a0a0a, #1f1f1f, #404040)",
+    7: "url('dark-denim.png'), linear-gradient(to bottom, #2e2e2e, #4e4e4e, #6c6c6c)",
+    8: "url('wood.png'), linear-gradient(to bottom, #1e1e1e, #3b3b3b, #585858)",
+    9: "url('paper.png'), linear-gradient(to bottom, #2c2c2c, #4a4a4a, #6d6d6d)",
+    10: "url('wood.png'), linear-gradient(to bottom, #1d1d1d, #3a3a3a, #595959)"
 };
 
 const Stars = () => {

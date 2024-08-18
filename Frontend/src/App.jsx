@@ -82,12 +82,12 @@ function App() {
         </>
       ),
     },
-    // {
-    //   path: "/news",
-    //   element: <>
-    //     <News />
-    //   </>
-    // },
+    {
+      path: "/news",
+      element: <>
+        <News />
+      </>
+    },
     {
       path: "/login",
       element: <>

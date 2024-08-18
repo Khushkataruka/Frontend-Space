@@ -69,7 +69,7 @@ main .about-us .about-background {
     justify-content: center;
     width: 100%;
     height: 600px;
-    background: url(se.jpg) no-repeat center center;
+    background: url('se.jpg') no-repeat center center;
     background-size: cover;
     border-radius: 10px;
     margin-bottom: 30px;

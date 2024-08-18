@@ -227,7 +227,7 @@
     width: 100%;
     display: block;
     background:
-        url('https://www.transparenttextures.com/patterns/dark-denim.png') no-repeat center center,
+        url('dark-denim.png') no-repeat center center,
         linear-gradient(to bottom, #1a1a1a, #400000, #b22222);
     background-size: auto, cover;
     color: white;
@@ -438,9 +438,7 @@
     transform: scale(1.05);
 }
 
-.data-s {
-    /* text-decoration: underline; */
-}
+
 .data-s:hover{
     transform: scale(1.03);
     font-weight: bold;
