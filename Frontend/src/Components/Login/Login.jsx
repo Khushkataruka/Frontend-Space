@@ -24,7 +24,7 @@ function Login() {
         try {
             const endpoint = isRegister ? "register" : "login";
 
-            const response = await fetch(`http://localhost:3001/${endpoint}`, {
+            const response = await fetch(`https://space-website-0n3t.onrender.com/${endpoint}`, {
                 method: 'POST',
                 headers: {
                     'Accept': 'application/json',

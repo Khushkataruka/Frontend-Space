@@ -13,7 +13,7 @@ function Forgot() {
     const onSubmit = async (data) => {
         setloader(true)
         try {
-            const response = await fetch("http://localhost:3001/forgot-password", {
+            const response = await fetch("https://space-website-0n3t.onrender.com/forgot-password", {
                 method: 'POST',
                 headers: {
                     'Accept': 'application/json',

@@ -14,7 +14,7 @@ const Contact = () => {
 
     const onSubmit = async (data) => {
         try {
-            const response = await fetch('http://localhost:3001/connect', {
+            const response = await fetch('https://space-website-0n3t.onrender.com/connect', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

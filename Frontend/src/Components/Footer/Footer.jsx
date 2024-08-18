@@ -10,7 +10,7 @@ const Footer = () => {
     const onSubmit = async (data) => {
         setLoader(true); // Show loader
         try {
-            const response = await fetch(`http://localhost:3001/subscribe`, {
+            const response = await fetch(`https://space-website-0n3t.onrender.com/subscribe`, {
                 method: 'POST',
                 headers: {
                     'Accept': 'application/json',
